@@ -375,14 +375,6 @@ Contributions are welcome! Feel free to:
 
 ---
 
-## 📞 Contact
-
-**Author:** Shariq Khan  
-**Email:** engr.m.shariqkhan@gmail.com  
-**GitHub:** [@muk0644](https://github.com/muk0644)
-
----
-
 <div align="center">
 
 **[⬆ Back to Top](#-intelligent-california-housing-price-predictor)**
