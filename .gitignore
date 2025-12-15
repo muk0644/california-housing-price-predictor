@@ -39,11 +39,9 @@ wheels/
 Thumbs.db
 
 # Project specific - Large datasets and models
-datasets/          # Exclude: Auto-downloaded housing data (~20MB)
-models/            # Exclude: Trained model files (*.pkl)
-*.pkl              # Exclude: Serialized models
-*.tgz              # Exclude: Compressed archives
-*.csv              # Exclude: Large CSV files
+*.pkl              # Exclude: Serialized models (too large for GitHub)
+*.h5               # Exclude: Keras models
+*.joblib           # Exclude: Joblib serialized files
 
 # Keep plots/ directory - Images are small and demonstrate results
 # plots/           # KEEP: PNG visualizations (~2MB total)
