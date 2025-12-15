@@ -1,10 +1,36 @@
-# Intelligent California Housing Price Predictor: End-to-End ML Pipeline
+# 🏠 Intelligent California Housing Price Predictor
+## End-to-End Machine Learning Pipeline
 
-> A production-ready machine learning system for predicting median house values in California districts. Built with scikit-learn, this project demonstrates industry best practices in data preprocessing, feature engineering, model training, hyperparameter optimization, and statistical evaluation using the California Housing dataset (1990 Census).
+<div align="center">
 
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0.1%2B-orange.svg)](https://scikit-learn.org/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)](LICENSE)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
+[![GitHub Stars](https://img.shields.io/github/stars/muk0644/california-housing-price-predictor?style=social)](https://github.com/muk0644/california-housing-price-predictor)
+
+</div>
+
+> **A production-ready machine learning system** for predicting median house values in California districts. Built with scikit-learn, this project demonstrates industry best practices in data preprocessing, feature engineering, model training, hyperparameter optimization, and statistical evaluation using the California Housing dataset (1990 Census).
+
+---
+
+## 📑 Table of Contents
+
+- [Project Overview](#-project-overview)
+- [Features](#-features)
+- [Demo & Results](#-demo--results)
+- [Installation](#-installation)
+- [Quick Start](#-quick-start)
+- [Project Structure](#-project-structure)
+- [Dependencies](#-dependencies)
+- [Model Performance](#-model-performance)
+- [Key Learnings](#-key-learnings)
+- [Troubleshooting](#-troubleshooting)
+- [Acknowledgments](#-acknowledgments)
+- [License](#-license)
+
+---
 
 ## 📊 Project Overview
 
@@ -32,6 +58,39 @@
 - Feature importance analysis
 - Bootstrap confidence intervals (95%)
 - Error distribution analysis
+
+## 🎬 Demo & Results
+
+### 📊 Visualizations Generated
+
+This project generates 7 comprehensive visualizations:
+
+1. **Feature Distributions** - Understanding data spread and outliers
+2. **Correlation Analysis** - Feature relationships heatmap
+3. **Geographic Distribution** - Housing prices on California map
+4. **Income vs Price** - Key predictor analysis
+5. **Predictions vs Actual** - Model accuracy visualization
+6. **Error Distribution** - Residual analysis
+7. **Feature Importance** - Random Forest feature ranking
+
+<div align="center">
+
+| Geographic Distribution | Predictions vs Actual | Feature Importance |
+|:---:|:---:|:---:|
+| Housing prices mapped by location | Model performance scatter plot | Top predictive features |
+| *See `plots/03_geographic_distribution.png`* | *See `plots/05_predictions_vs_actual.png`* | *See `plots/07_feature_importance.png`* |
+
+</div>
+
+### 🎯 Key Results
+
+```
+✅ Final Model: Random Forest Regressor
+✅ Test RMSE: $48,749 (±4.6%)
+✅ R² Score: ~0.80 (80% variance explained)
+✅ Training Time: ~2 minutes on standard laptop
+✅ Model Size: ~207MB (excluded from repo)
+```
 
 ## 📦 Installation
 
@@ -110,6 +169,20 @@ california-housing-price-predictor/
 ```
 
 ## 🔧 Dependencies
+
+### Core Technologies
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+
+</div>
+
+### Package Details
 
 | Package | Purpose |
 |---------|---------|
@@ -248,12 +321,57 @@ This project follows best practices from:
 
 ## 📄 License
 
-Open source - Use freely for learning purposes
+This project is licensed under the **Apache License 2.0** - see the [LICENSE](LICENSE) file for details.
+
+### Why Apache 2.0?
+
+We follow the same license as Aurélien Géron's "Hands-On Machine Learning" repository to maintain consistency with educational ML projects in the community.
+
+**Key Points:**
+- ✅ Free for commercial use
+- ✅ Free for modification
+- ✅ Free for distribution
+- ⚠️ Must include copy of license
+- ⚠️ Must document changes
+- ⚠️ No liability
 
 ---
 
+## 🚀 Quick Start
+
 **Ready to get started?** Run:
+
 ```bash
+git clone https://github.com/muk0644/california-housing-price-predictor.git
+cd california-housing-price-predictor
 pip install -r requirements.txt
 jupyter notebook california_housing_ml_project1.ipynb
 ```
+
+Then execute all cells in the notebook!
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to:
+- 🐛 Report bugs
+- 💡 Suggest improvements
+- 📝 Improve documentation
+- 🔧 Submit pull requests
+
+---
+
+## 📞 Contact
+
+**Author:** Shariq Khan  
+**Email:** engr.m.shariqkhan@gmail.com  
+**GitHub:** [@muk0644](https://github.com/muk0644)
+
+---
+
+<div align="center">
+
+**[⬆ Back to Top](#-intelligent-california-housing-price-predictor)**
+
+</div>
