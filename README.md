@@ -77,8 +77,8 @@ This project generates 7 comprehensive visualizations:
 
 | Geographic Distribution | Predictions vs Actual | Feature Importance |
 |:---:|:---:|:---:|
+| ![Geographic](plots/03_geographic_distribution.png) | ![Predictions](plots/05_predictions_vs_actual.png) | ![Features](plots/07_feature_importance.png) |
 | Housing prices mapped by location | Model performance scatter plot | Top predictive features |
-| *See `plots/03_geographic_distribution.png`* | *See `plots/05_predictions_vs_actual.png`* | *See `plots/07_feature_importance.png`* |
 
 </div>
 
@@ -91,6 +91,19 @@ This project generates 7 comprehensive visualizations:
 ✅ Training Time: ~2 minutes on standard laptop
 ✅ Model Size: ~207MB (excluded from repo)
 ```
+
+### 📸 Complete Visualization Gallery
+
+All plots are generated in the `plots/` directory:
+
+| Plot | Description |
+|------|-------------|
+| ![Feature Distributions](plots/01_feature_distributions.png) | **Feature Distributions** - Understanding data spread and outliers |
+| ![Correlation Analysis](plots/02_correlation_analysis.png) | **Correlation Analysis** - Feature relationships heatmap |
+| ![Geographic Distribution](plots/03_geographic_distribution.png) | **Geographic Distribution** - Housing prices on California map |
+| ![Income vs Price](plots/04_income_vs_price.png) | **Income vs Price** - Key predictor analysis |
+| ![Predictions vs Actual](plots/05_predictions_vs_actual.png) | **Predictions vs Actual** - Model accuracy visualization |
+| ![Error Distribution](plots/06_error_distribution.png) | **Error Distribution** - Residual analysis |
 
 ## 📦 Installation
 
