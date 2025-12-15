@@ -11,7 +11,7 @@
 
 </div>
 
-> **A production-ready machine learning system** for predicting median house values in California districts. Built with scikit-learn, this project demonstrates industry best practices in data preprocessing, feature engineering, model training, hyperparameter optimization, and statistical evaluation using the California Housing dataset (1990 Census).
+> **A comprehensive machine learning project** for predicting median house values in California districts. Built with scikit-learn, this project demonstrates best practices in data preprocessing, feature engineering, model training, hyperparameter optimization, and statistical evaluation using the California Housing dataset (1990 Census).
 
 ---
 
